@@ -61,7 +61,7 @@ async function scrapeDivData(page) {
     console.log("Opening new page...");
     let page = await browser.newPage();
     console.log("Navigating to the URL...");
-    await page.goto("https://1xbet.com/fr/allgamesentrance/crash", { waitUntil: 'networkidle0' });
+    await page.goto("https://1xbet.com/en/allgamesentrance/crash", { waitUntil: 'networkidle0' });
 
     // Attendez que l'iframe soit chargé
     await page.waitForSelector('iframe.games-project-frame__item');
